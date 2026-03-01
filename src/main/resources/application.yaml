@@ -4,9 +4,8 @@ spring:
 
 telegram:
   bot:
-    token: ${BOT_TOKEN:8772297549:AAESp0BoaZOGInXCIp_D_4A_oGZ04duNbe8}
-    username: ${BOT_USERNAME:AnastasiyaKPT2Bot}
-    webhook-path: ""  # Оставляем пустым для Long Polling
+    token: ${TELEGRAM_BOT_TOKEN}
+    username: ${TELEGRAM_BOT_USERNAME}
 
 logging:
   level:
