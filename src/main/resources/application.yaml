@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: MoviesDownloader
+
+telegram:
+  bot:
+    token: ${TELEGRAM_BOT_TOKEN:123}
+    username: ${TELEGRAM_BOT_USERNAME:123}
+
+logging:
+  level:
+    com.example.bot: DEBUG
+    org.telegram: INFO
